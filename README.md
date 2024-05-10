@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,6 +8,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      display: flex;
     }
     
     .header {
@@ -14,12 +16,13 @@
       color: #fff;
       padding: 20px;
       text-align: center;
+      width: 100%;
     }
     
     .nav {
       position: fixed;
-      top: 0;
-      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
       background-color: #555;
       padding: 20px;
       width: 150px;
