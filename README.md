@@ -1,51 +1,91 @@
-# My Markdown Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        .post {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .post h2 {
+            color: #007bff;
+        }
+        .post p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
-## Introduction
+<header>
+    <h1>My Blog</h1>
+</header>
 
-This is a sample Markdown page to demonstrate the basic syntax and features of Markdown.
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
 
-## Text Formatting
+<div class="container">
+    <div class="post">
+        <h2>Sample Blog Post 1</h2>
+        <p>This is a sample blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae justo vel purus posuere vestibulum. Fusce euismod ipsum at libero fermentum, sed viverra lorem convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi.</p>
+    </div>
 
-Markdown allows you to easily format text:
+    <div class="post">
+        <h2>Sample Blog Post 2</h2>
+        <p>This is another sample blog post. Phasellus sit amet turpis eu purus pulvinar vehicula. Pellentesque vitae consectetur velit, eget feugiat libero. Quisque eget ullamcorper ligula, ac tempus elit.</p>
+    </div>
+</div>
 
-- *Italic*: *This text is italic.*
-- **Bold**: **This text is bold.**
-- `Code`: `This text is formatted as code.`
+<footer>
+    &copy; 2024 My Blog
+</footer>
 
-## Lists
-
-Markdown supports both ordered and unordered lists:
-
-### Unordered List
-- Item 1
-- Item 2
-- Item 3
-
-### Ordered List
-1. First item
-2. Second item
-3. Third item
-
-## Links and Images
-
-You can include links and images:
-
-[OpenAI](https://openai.com) - Visit OpenAI's website.
-
-![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
-
-## Blockquotes
-
-You can create blockquotes:
-
-> Markdown is a lightweight markup language with plain-text formatting syntax.
-
-## Code Blocks
-
-You can include code blocks:
-
-```python
-def greet(name):
-    print("Hello, " + name + "!")
-    
-greet("World")
+</body>
+</html>
